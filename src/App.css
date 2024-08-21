@@ -1,0 +1,8 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  height: 1080px;
+  width: 1930px;
+  user-select: none;
+  overflow: hidden;
+}

@@ -1,0 +1,165 @@
+
+.middle-container {
+    position: relative;
+  }
+  
+  .middle-container .camera-container{
+    position: absolute;
+    width: 308.89px;
+    height: 224.26px;
+    top: -500px;
+    left: 200px;
+  }
+  
+  .middle-container .camera-container img{
+    width: 308.89px;
+    height: 224.26px;
+  }
+  
+  
+  
+  .student-container #student {
+    width: 158px;
+    height: 131px;
+    position: absolute;
+    z-index: 999999;
+    margin-top: 77px;
+    left: 17px;
+  }
+  
+  
+  .middle-container img {
+    position: relative;
+    top: 677px;
+    height: 1327px;
+    width: 724.94px;
+  }
+  
+  .middle-container .target-container {
+    position: absolute;
+    z-index: 99;
+  }
+  .middle-container .target-container img {
+    top: -70px;
+    left: 70px;
+    position: relative;
+    width: 71.02px;
+    height: 71.02px;
+    z-index: 999999;
+  }
+  
+  .middle-container .teacher-container {
+    position: absolute;
+    width: fit-content;
+    height: 273px;
+    top: 700px;
+  }
+  
+  #teacher {
+    top: 90px;
+    position: relative;
+    width: 79.86px;
+    height: 273.02px;
+    clip-path: inset(0px 0px 85px 0px);
+  }
+  
+  .teacher-container #horizontal-line {
+    position: absolute;
+    height: 1px;
+    width: 188px;
+    left: 53px;
+    top: 157px;
+    z-index: 9999;
+    border: 1px solid #00000079
+  
+  }
+  
+  
+  .middle-container .hand-container {
+    position: absolute;
+    top: 155px;
+    left: 50px;
+    transform-origin: center;
+    width: 4px;
+    height: 5px;
+    background-color: #5708ff;
+  }
+  
+  .hand-container img {
+    position: relative;
+    top: -62px;
+    left: -8px;
+    width: 67.65px;
+    height: 74px;
+  }
+  
+  .hand-container #hypotenuse{
+    position: absolute;
+    top: -97px;
+    left: 2px;
+    transform-origin: bottom;
+    rotate: 38deg;
+    z-index: 9999999;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.352);
+    height: 100px;
+  }
+  
+  .hand-container #camera {
+    position: absolute;
+    top: -70px;
+    left: 40px;
+    width: 23.07px;
+    height: 16.84px;
+    z-index: 999;
+  }
+  
+  #img-button {
+    top: 150px;
+    left: -150px;
+    position: absolute;
+    width: 146px;
+    height: 49px;
+    z-index: 9;
+  }
+  
+  .teacher-container #width-meter {
+    position: absolute;
+    top: 255px;
+    left: 70px;
+    width: 300px;
+    height: 20px;
+    z-index: 9999;
+  }
+  
+  .teacher-container .w-counter{
+    position: absolute;
+    width: fit-content;
+    height:49px;
+    padding: 11px 9px 11px 9px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FAFF08;
+    z-index: 9999999;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px 0px #00000040;
+    top: 290px;
+    left: 200px;
+  
+  }
+  
+  .teacher-container .angle-counter{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    background-color: #5708ff;
+    border-radius: 10px;
+    z-index: 999;
+  }
